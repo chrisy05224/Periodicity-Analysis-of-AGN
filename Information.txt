@@ -1,6 +1,6 @@
 Here are several notes by the creator for anyone who wants to use the files on this repository:
-1. In order to download the data to analyze, you many need to download both the CSV and JSON files of the AGN data, found in the Fermi LAT Light Curve Repository: https://fermi.gsfc.nasa.gov/ssc/data/access/lat/LightCurveRepository/
-   After searchning up the AGN, click on 'LCR Light Curves', and pick the one-month binned data.
+1. In order to download the data to analyze, you may need to download both the CSV and JSON files of the AGN data, found in the Fermi LAT Light Curve Repository: https://fermi.gsfc.nasa.gov/ssc/data/access/lat/LightCurveRepository/
+   After searching up the AGN, click on 'LCR Light Curves', and pick the one-month binned data.
    I also suggest that you put the files of the data in the same folder as the code.
    There is also a naming convention for the JSON and CSV files in this code; you must name it as follows: [Association name]_1monthbinned.json or [Association name]_1monthbinned.csv
    Obviously, feel free to change this naming convention, or anything else, in your own branch.
@@ -8,3 +8,5 @@ Here are several notes by the creator for anyone who wants to use the files on t
    
 2. The fisherPDM() method, which is the method to determine the significance of the dominant period found by Phase Dispersion Minimization, is not optimal to determine significance.
    The optimal number of permutations of Fisher's method of randomization should be 10000-20000, but since each Phase Disperson Minimization computation takes around seven seconds, you can imagine how long 10000 permutations would take.
+
+3. The Main file is an example of how to implement all of the methods in a cohesive, user-friendly pipeline.
