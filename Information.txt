@@ -10,3 +10,4 @@ Here are several notes by the creator for anyone who wants to use the files on t
    The optimal number of permutations of Fisher's method of randomization should be 10000-20000, but since each Phase Disperson Minimization computation takes around seven seconds, you can imagine how long 10000 permutations would take.
 
 3. The Main.py file is an example of how to implement all of the methods in a cohesive, user-friendly pipeline.
+   In this Main method, you will see a dictionary containing the literature periods for different AGN. If you wish to find the periodicity of an AGN that is not already in the dictionary, simply add the association name and the expected period as a key, value pair in the dictionary.
