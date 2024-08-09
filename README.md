@@ -33,3 +33,4 @@ Below are all of my sources that I used. There is also a file in this repository
 
 In addition, the file Information.pdf has some extra information on the usage of the methods.
 Main.py gives an example of how to incorporate these four methods into one coherent pipeline.
+Lastly, Scratchpad.py is a file that you can use if you want to plot the raw data.
