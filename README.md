@@ -31,5 +31,5 @@ Below are all of my sources that I used. There is also a file in this repository
 - "Understanding the lomb–scargle periodogram." by VanderPlas, Jacob T.
 - "SciPy 1.0 Contributors." by Virtanen, Pauli, et al.
 
-In addition, the file Information.txt has some extra information on the usage of the methods.
+In addition, the file Information.pdf has some extra information on the usage of the methods.
 Main.py gives an example of how to incorporate these four methods into one coherent pipeline.
